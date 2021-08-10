@@ -26,6 +26,9 @@ add docker to group
  sudo groupadd docker
  sudo usermod -aG docker $USER
 
+login to docker
+ docker login (enter username and password)
+
 clone project
  git clone https://github.com/goFrendiAsgard/alta-ec2.git
 
