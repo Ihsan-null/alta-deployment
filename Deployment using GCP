@@ -31,6 +31,8 @@ login to docker
 
 clone project
  git clone https://github.com/goFrendiAsgard/alta-ec2.git
+ cd alta-ec2
+ cd program
 
 docker build
  docker build -t ihsannull/cobahello:latest .
