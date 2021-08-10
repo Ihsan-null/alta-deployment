@@ -37,8 +37,13 @@ clone project
 docker build
  docker build -t ihsannull/cobahello:latest .
 
+melihat image docker
+ docker image ls
+
 docker push
  docker push ihsannull/cobahello:latest
+
+cek docker hub apakah image yang kita buat muncul di akun kita
 
 REMOTE
 ============
