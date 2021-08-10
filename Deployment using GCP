@@ -4,8 +4,8 @@ GCP
 LOKAL
 ===========
 
-ssh keygen
- ssh-keygen
+membuat ssh keygen (private dan pub key)
+ ssh-keygen -C username
 
 id rsa untuk dicopy
  cat .ssh/id_rsa.pub
