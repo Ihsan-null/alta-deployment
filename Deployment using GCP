@@ -16,12 +16,14 @@ setup ssh login
 copy file untuk copy file localhost
  scp -i ~/.ssh/id_rsa main.go mnlx@34.101.230.145:~
 
-LOKAL/CICD/REMOTE
+LOKAL/CICD/REMOTE (ubuntu/debian)
 =================
+
+install docker
+ sudo apt-get install docker.io
 
 clone project
  git clone https://github.com/goFrendiAsgard/alta-ec2.git
-
 
 docker build
  docker build -t ihsannull/cobahello:latest .
