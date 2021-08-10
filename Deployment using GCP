@@ -49,7 +49,7 @@ REMOTE
 ============
 
 docker run
- docker run -d -e "HTTP_PORT=:8080" -p 3000:8080 --name hellogais ihsannull/cobahello
+ docker run -d -e "HTTP_PORT=:8080" -p 80:8080 --name hellogais ihsannull/cobahello
 
  https://stackoverflow.com/questions/25880703/cant-open-port-8080-on-google-compute-engine-running-debian
  https://cloud.google.com/vpc/docs/using-firewalls
